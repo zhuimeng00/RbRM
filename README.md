@@ -1,33 +1,25 @@
-# ARM：A RANSAC-based method for Automatic Reverse Modeling of incomplete point clouds
-![processing](images/post_process.png) 
-This repository provides source code for our paper:
+# RbRM: Robust B-Rep Reverse Modeling for Manufacturing-Ready Solid Generation
 
-# Paper Post-Acceptance Code Open-Source Project
+![Overview](images/图形摘要.png) This repository is the official implementation of our paper: **"Robust B-Rep Reverse Modeling for Manufacturing-Ready Solid Generation from Point Clouds"** (Currently under review at *Robotics and Computer-Integrated Manufacturing*).
 
-This repository hosts some of the key code developed during our research. Since the paper is still under review, we are currently providing a pre-release version of the code only. The complete reproduction steps and related files will be made publicly available once the paper is accepted. Thank you for your interest and understanding!
+## 🔔 Important Notice: Pre-release Version
+Thank you for your interest in our work! Since the manuscript is currently under single-blind peer review, this repository serves as a **preview**. 
 
-## Project Overview
+To protect the intellectual property of our core algorithms (including HFI, GGO, and SDA modules) during the review process, the full source code, compiled CloudCompare plugin, and pre-trained weights are **temporarily withheld**. 
 
-- **Pre-release Content:**  
-  This repository currently includes a subset of data processing scripts that demonstrate our research approach and framework.
-  
-- **Future Updates:**  
-  Upon the official acceptance of the paper, the full code base including complete reproduction steps, configuration files, and additional documentation will be released. This will facilitate reproducibility and further development by interested researchers.
+**The complete codebase and end-to-end reproduction instructions will be made fully public immediately upon the paper's official acceptance.** ## 🚀 Key Highlights
+Unlike existing methods that output unconstrained meshes or suffer from CAD kernel crashes, **RbRM** guarantees the generation of kernel-feasible, 100% watertight STEP solids from noisy and occluded 3D scans.
+- **HFI:** Occlusion-Resilient Feature Inference.
+- **GGO:** Global Geometric Optimization for design intent recovery.
+- **SDA:** Semantic-Driven Assembly for robust Boolean operations.
 
-## Results Overview
+## 🎥 Demo
+Check out our early-stage prototype integrated into CloudCompare:
+[![Demo Video](https://www.bilibili.com/video/your_new_video_link)
+*(Note: This video demonstrates the base workflow. The latest robust Boolean and global optimization features evaluated in the paper have been significantly upgraded in our backend.)*
 
-The following figure illustrates the visualization results of reverse modeling on the CADParser dataset using the **ARM (Automatic Reverse Modeling)**  
+## 📊 Qualitative Results
+Below are the visual comparisons on the real-world Scan dataset. Our method consistently avoids the non-manifold fragmented patches produced by existing generative baselines, outputting manufacturing-ready B-Reps.
 
-![visualization results on the CADParser dataset](images/cadparser.png)  
-
-*Figure: Each row contains results for two CAD models. For each model, the three columns (from left to right) show the input point cloud, the ground truth CAD model, and the result reconstructed by the ARM method. Models are categorized by
-complexity: green frames denote simple models (1–3 primitives), orange frames denote medium models (4–7 primitives), and blue frames denote complex models (8 or more primitives).*
-
-
-  ## Demo Video
-[Demonstration of CloudCompare plugin integrating automatic reverse modelling algorithms.](https://www.bilibili.com/video/BV1VjY4zAEBw/?share_source=copy_web&vd_source=5cf44e7a3a7ad5cdd71a8af3cff15927)
-
-
-
-
-
+![Results1](images/deepcad+cadparser.png),![Results2](images/scan.png) ---
+*Stay tuned for updates! For academic inquiries, please feel free to contact the authors.*
