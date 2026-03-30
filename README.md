@@ -19,7 +19,18 @@ Check out our early-stage prototype integrated into CloudCompare:
 *(Note: This video demonstrates the base workflow. The latest robust Boolean and global optimization features evaluated in the paper have been significantly upgraded in our backend.)*
 
 ## 📊 Qualitative Results
-Below are the visual comparisons on the real-world Scan dataset. Our method consistently avoids the non-manifold fragmented patches produced by existing generative baselines, outputting manufacturing-ready B-Reps.
+Below are the visual comparisons on the public and real-world Scan dataset. Our method consistently avoids the non-manifold fragmented patches produced by existing generative baselines, outputting manufacturing-ready B-Reps.
 
 ![Results1](images/deepcad+cadparser.png),![Results2](images/scan.png) ---
 *Stay tuned for updates! For academic inquiries, please feel free to contact the authors.*
+
+### Acknowledgements
+
+We would like to thank and acknowledge referenced codes from 
+
+1. ParseNet: https://github.com/Hippogriff/parsenet-codebase.
+2. ComplexGen: https://github.com/guohaoxiang/ComplexGen.
+3. Point2CAD: https://github.com/prs-eth/point2cad.
+4. DeepCAD: https://github.com/rundiwu/DeepCAD.
+5. CAD-Recode: https://github.com/filaPro/cad-recode.
+6. CADParser: https://drive.google.com/file/d/1CEgL22-dXunbmzAn5g2NetCwc1AFYiWk/view?usp=share_link
