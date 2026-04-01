@@ -1,6 +1,6 @@
 # RbRM: Robust B-Rep Reverse Modeling from Feature-Level Point-Cloud Instances to Manufacturing-Ready STEP Solids
 
-![Overview](images/图形摘要.png) This repository is the official implementation of our paper: **"Robust B-Rep Reverse Modeling for Manufacturing-Ready Solid Generation from Point Clouds"** (Currently under review at *Robotics and Computer-Integrated Manufacturing*).
+![Overview](images/图形摘要.png) This repository is the official implementation of our paper: **"Robust B-Rep Reverse Modeling from Feature-Level Point-Cloud Instances to Manufacturing-Ready STEP Solids"** (Currently under review at *Advanced Engineering Informatics*).
 
 ## 🔔 Important Notice: Pre-release Version
 Thank you for your interest in our work! Since the manuscript is currently under single-blind peer review, this repository serves as a **preview**. 
