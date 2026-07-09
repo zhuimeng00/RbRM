@@ -1,0 +1,2 @@
+Total,Valid,Invalid,IR_all(%),M-WR_all(%),M-WR_valid(%),Solid_Output_Method,S-WR_all(%),S-WR_valid(%),M-IoU_all,M-IoU_valid,M-IoU_cover_all(%),M-IoU_cover_valid(%),S-IoU_all,S-IoU_valid,S-IoU_cover_all(%),S-IoU_cover_valid(%),FR_all(%),FR_valid(%)
+55,55,0,0.0,87.27272727272727,87.27272727272727,False,,,0.7693858185131959,0.9617322731414947,80.0,80.0,,,,,,
