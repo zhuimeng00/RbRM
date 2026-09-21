@@ -37,7 +37,7 @@ The framework integrates feature-level reasoning, geometric optimization, and CA
 
 Check out our prototype demonstration:
 
-[![Demo Video](【RbRM:鲁棒逆向建模算法集成的CloudCompare插件演示】 https://www.bilibili.com/video/BV1VjY4zAEBw/?share_source=copy_web&vd_source=5cf44e7a3a7ad5cdd71a8af3cff15927)]
+[![Demo Video]([RbRM:鲁棒逆向建模算法集成的CloudCompare插件演示](https://www.bilibili.com/video/BV1VjY4zAEBw/)]
 
 *(Note: This video demonstrates the overall workflow of the prototype. The backend reconstruction components have been further improved in the current paper version.)*
 
