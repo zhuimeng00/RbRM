@@ -15,7 +15,7 @@ Thank you for your interest in our work!
 
 Since the manuscript is currently under peer review, this repository provides a **preview version** of the RbRM framework.
 
-To protect the intellectual property of the core reconstruction algorithms, including the HFI, GGO, and SDA modules, the complete reconstruction pipeline, compiled CloudCompare plugin, and pre-trained models are **temporarily withheld**.
+To protect the intellectual property of the core reconstruction algorithms, including the HFI, GGO, and SDA modules, the complete reconstruction pipeline, and compiled CloudCompare plugin are **temporarily withheld**.
 
 The complete codebase and end-to-end reproduction instructions will be released after the paper's official acceptance.
 
